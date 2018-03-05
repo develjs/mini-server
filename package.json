@@ -1,0 +1,27 @@
+{
+  "name": "tiny-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/gulp build",
+    "watch": "node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/lexa-b/"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lexa-b/",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "dot": "^1.1.2",
+    "mime": "^2.2.0",
+    "nodemailer": "^4.6.0"
+  },
+  "mini-server": {
+    "handles":["restrict.mini-server.js", "feedback.mini-server.js", "dot.mini-server.js"]
+  }
+}
