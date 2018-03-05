@@ -1,5 +1,6 @@
 # mini-server
 nodejs minimalistic extendable http server with support doT templating for *.html files
+
 **Install**
  
       npm i
