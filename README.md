@@ -9,6 +9,7 @@ nodejs minimalistic extendable http server with support doT templating for *.htm
 **Run**
 
       node mini-server.js
+      node mini-server.js --port 8080 --root ./web
       
       
 **Templating**
